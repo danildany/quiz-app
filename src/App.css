@@ -1,0 +1,101 @@
+.app{
+  height: 100vh;
+  display: flex;
+  background-color: #020230;
+
+  color: white;
+}
+
+.main{
+  width: 75%;
+  background:linear-gradient(to bottom, rgba(0,0,0,0),#020230), url('./assets/bg.jpg') center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  height: 50%;
+  position: relative;
+}
+.timer{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+}
+.bottom{
+  height: 50%;
+}
+
+
+.pyramid{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.money-list{
+  list-style: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.money-list-item{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+.money-list-item.active{
+  background-color: teal;
+}
+
+.money-number{
+  font-size: 18px;
+  font-weight: 100;
+  width: 30%;
+}
+.money-amount{
+  font-size: 20px;
+  font-weight: 200;
+}
+.gameover-text{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  background:rgb(48, 14, 65);
+  padding: 40px;
+}
+.play-btn{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: 5px solid #fff;
+  color: #fff;
+  border-radius: 20px;
+  background:rgb(48, 14, 65);
+  padding: 20px 60px;
+  font-size: 60px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.play-btn:hover{
+  background-color: teal;
+  transition:all 1s ease-in-out ;
+}
